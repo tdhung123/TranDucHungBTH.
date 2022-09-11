@@ -1,0 +1,18 @@
+<h2> Bảng nhân viên</h2>
+<form asp-action="nhanvien">
+    <label>Nhân viên:</label>
+    <input type="text" name="nhanvien">
+    <br>
+    <label>Giới tính:</label>
+      <input type="radio" name="gioitinh"
+    value="nam" checked>nam
+    <input type="radio" name="gioitinh"value="nữ">nữ
+    
+    <br>
+    <label>Tuổi:</label>
+  <input type="number" name="tuoi">
+
+    <br>
+    <input type="submit" value="Gửi du lieu">
+</form>
+<h3>Thông báo thông tin sinh viên:<br> @ViewBag.nhanvien<br>@ViewBag.d<br>@ViewBag.c</h3>

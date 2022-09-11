@@ -1,0 +1,15 @@
+<h2> Bảng nhân viên</h2>
+<form asp-action="nguoi">
+    <label>ten:</label>
+    <input type="text" name="ten">
+    <br>
+    <label>tuoi:</label>
+    <input type="number" name="tuoi">
+    
+    
+    <label>ngay sinh:</label>
+  <input type="datetime" name="ngaysinh">
+
+    <input type="submit" value="Gửi du lieu">
+</form>
+<h3>Thông báo thông tin sinh viên:<br> @ViewBag.nguoi</h3>

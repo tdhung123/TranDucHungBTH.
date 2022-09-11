@@ -1,0 +1,14 @@
+<h2>Create new Student</h2>
+<form asp-action="Create">
+    <label>Studnet ID</label>
+    <input type="number" name="StudentID">
+    <br>
+    <label>Studnet Name</label>
+    <input type="text" name="StudentName">
+    <br>
+    <label>Age</label>
+    <input type="number" name="Age">
+    <br>
+    <input type="submit" value="Gửi du lieu">
+</form>
+<h3>Thông báo thông tin sinh viên: @ViewBag.Sinhvien</h3>
