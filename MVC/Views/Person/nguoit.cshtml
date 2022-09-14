@@ -1,0 +1,25 @@
+<h1>Danh sách </h1>
+<br>
+<table class="table border" >
+    <tr>
+        <th>
+            <label> Tên</label>
+        </th>
+        <th>
+            <label> Tuổi</label>
+        </th>
+        <th>
+            <label> năm sinh</label>
+        </th>
+    </tr>
+
+    @foreach (var item in ViewData["Person"] as List<Person>)
+        {
+            <tr>
+            <td>@item.ten</td>
+            <td>@item.tuoi</td>
+            <td>@item.ngaysinh</td>
+           
+            </tr>
+        }
+</table>

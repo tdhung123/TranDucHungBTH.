@@ -4,6 +4,22 @@ namespace MVC.Controllers
 {
     public class EmployeeController : Controller
     {
+         
+         public IActionResult nhanvient()
+         {
+       List<Employee> ptList = new List<Employee>()
+       
+            {
+                new Employee{ nhanvien="Đức Hùng", gioitinh="Nam" , tuoi=22},
+               
+               
+
+
+            };
+          ViewData["Employee"]= ptList;
+    
+            return View();
+    }    
     
 
 

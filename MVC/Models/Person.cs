@@ -7,6 +7,6 @@ namespace MVC.Models
 
         public int tuoi {get; set;}
 
-        public DateTime ngaysinh {get; set;}
+        public int ngaysinh {get; set;}
     }
 }

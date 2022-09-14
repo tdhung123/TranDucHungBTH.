@@ -22,8 +22,8 @@ namespace MVC.Controllers
 
 
             };
-            ViewBag.DanhsachSV = StdList.Count();
-            return View();
+            ViewData["Student"]= StdList;
+            return View( );
         }
 
         [HttpGet]

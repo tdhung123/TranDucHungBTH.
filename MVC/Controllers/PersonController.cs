@@ -4,7 +4,21 @@ namespace MVC.Controllers
 {
     public class PersonController : Controller
     {
+         public IActionResult nguoit()
+         {
+       List<Person> psList = new List<Person>()
+       
+            {
+                new Person{ ten="Đức Hùng", tuoi=22, ngaysinh= 2001},
+                new Person{ ten="Đức Hùng", tuoi=22, ngaysinh= 2001},
+               
+
+
+            };
+          ViewData["Person"]= psList;
     
+            return View();
+    }    
 
 
      
