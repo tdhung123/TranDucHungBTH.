@@ -71,7 +71,7 @@ namespace MVC.Models.Process
                 else if (delta == 0)
                 {
                     x1 = x2 = -b / (2 * a);
-                    thongBao="\n Phuong trinh co nghiem kep x1 = x2 = {0}" + x1;
+                    thongBao="\n Phuong trinh co nghiem kep x1 = x2 = " + x1;
                 }
                 //nếu delta > 0 thì phuong trình có hai nghiệm phân biệt
                 else

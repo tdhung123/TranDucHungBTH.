@@ -8,7 +8,7 @@ namespace MVC.Controllers
     public class ptController : Controller    
     {
         //khai bao class theo huong doi tuong
-        GiaiPhuongTrinh gpt = new GiaiPhuongTrinh();
+      //  GiaiPhuongTrinh gpt = new GiaiPhuongTrinh();
       
       public IActionResult Index ()
       {
@@ -21,7 +21,7 @@ namespace MVC.Controllers
         // ep kieu du lieu cua tham so
         double a = Convert.ToDouble(heSoA);
         double b = Convert.ToDouble(heSoB);
-        string thongBao = gpt.GiaiPhuongTrinhBacNhat(a, b);
+        string thongBao =new GiaiPhuongTrinh().GiaiPhuongTrinhBacNhat(a, b);
         ViewBag.mess= thongBao ; 
         return View();
       }
@@ -35,7 +35,7 @@ namespace MVC.Controllers
         double f = Convert.ToDouble(a);
         double d = Convert.ToDouble(b);
         double e = Convert.ToDouble(c);
-        string thongBao = gpt.GiaiPhuongTrinhBacHai( f,d,e );
+        string thongBao =new GiaiPhuongTrinh().GiaiPhuongTrinhBacHai( f,d,e );
         ViewBag.thongBao=thongBao;
         return View();
         }
