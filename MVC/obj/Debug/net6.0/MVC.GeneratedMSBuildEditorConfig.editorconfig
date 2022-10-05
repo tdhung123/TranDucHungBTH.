@@ -8,89 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
-build_property.ProjectDir = C:\Users\Admin\Desktop\dyusjhf\MVC\
+build_property.ProjectDir = c:\Users\Admin\Desktop\dyusjhf\MVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\dyusjhf\MVC
+build_property.MSBuildProjectDirectory = c:\Users\Admin\Desktop\dyusjhf\MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Employee/nhanvien.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Employee/nhanvien.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcbmhhbnZpZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Employee/nhanvient.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Employee/nhanvient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcbmhhbnZpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Home/Index.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Home/Privacy.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Person/nguoi.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Person/nguoi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXG5ndW9pLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Person/nguoit.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Person/nguoit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXG5ndW9pdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/pt/Create.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/pt/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/pt/Index.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/pt/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Shared/Error.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/ce.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/ce.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nUHJvY2Vzc1xjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/Index.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nUHJvY2Vzc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/mem.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/mem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nUHJvY2Vzc1xtZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/meme.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/meme.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nUHJvY2Vzc1xtZW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/memi.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/StringProcess/memi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nUHJvY2Vzc1xtZW1pLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Student/Create.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Student/Index.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/_ViewImports.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/_ViewStart.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/dyusjhf/MVC/Views/Shared/_Layout.cshtml]
+[c:/Users/Admin/Desktop/dyusjhf/MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e
