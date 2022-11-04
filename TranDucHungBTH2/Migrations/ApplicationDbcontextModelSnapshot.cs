@@ -70,15 +70,32 @@ namespace TranDucHungBTH2.Migrations
                     b.ToTable("Person");
                 });
 
+            modelBuilder.Entity("TranDucHungBTH2.Models.sinhvien", b =>
+                {
+                    b.Property<int>("masinhvien")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("tensinhvien")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("masinhvien");
+
+                    b.ToTable("sinhvien");
+                });
+
             modelBuilder.Entity("TranDucHungBTH2.Models.Student", b =>
                 {
                     b.Property<string>("ID")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("StudentID")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Studentname")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("ID");

@@ -21,9 +21,9 @@ namespace TranDucHungBTH2.Controllers
         // GET: Student
         public async Task<IActionResult> Index()
         {
-              return _context.Student != null ? 
-                          View(await _context.Student.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbcontext.Student'  is null.");
+            return _context.Student != null ?
+                        View(await _context.Student.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbcontext.Student'  is null.");
         }
 
         // GET: Student/Details/5
@@ -149,14 +149,14 @@ namespace TranDucHungBTH2.Controllers
             {
                 _context.Student.Remove(student);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool StudentExists(string id)
         {
-          return (_context.Student?.Any(e => e.ID == id)).GetValueOrDefault();
+            return (_context.Student?.Any(e => e.ID == id)).GetValueOrDefault();
         }
     }
 }

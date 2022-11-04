@@ -1,9 +1,16 @@
 using System.Data;
-namespace TranDucHungBTH2.Models{
+using System.ComponentModel.DataAnnotations;
+namespace TranDucHungBTH2.Models
+{
     public class Student
     {
-        public string? ID {get; set;}
-        public string? StudentID {get; set;}
-        public string? Studentname {get; set;}
+        [Required]
+        public string? ID { get; set; }
+        [Required]
+        public string? StudentID { get; set; }
+        [Required]
+        public string? Studentname { get; set; }
+
+
     }
 }
