@@ -221,7 +221,7 @@ namespace baithuchanhEXCEL.Controllers
                 }
                 else
                 {
-                    var FileName = DateTime.Now.ToShortDateString() + fileExtension;
+                    var FileName = DateTime.Now.ToShortTimeString() + fileExtension;
                     var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads/Excels", FileName);
                     var fileLocation = new FileInfo(filePath).ToString();
                     using (var stream = new FileStream(filePath, FileMode.Create))
